@@ -4,9 +4,11 @@ This project focuses on detecting suicidal ideation from social media posts usin
 
 # Table of Contents
 
-- [Overview]
-- [Features]
-- [Tech Stack]
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Future Work](#future-work)
+- [Contributing](#contributing)
 
 
 # Overview
@@ -34,3 +36,15 @@ With the growing use of social media, individuals often express distress or suic
   - Visualization: Matplotlib, Seaborn
 - Automation: UiPath (for scraping social media posts)
 - Frontend (optional): Streamlit / Flask
+
+# Future Work
+
+Add multi-language support (e.g., Hindi, Telugu).
+Integrate emotion classification and sentiment scoring.
+Improve real-time detection with Transformer models like BERT.
+Connect with helpline APIs for emergency response.
+
+# Contributing
+
+Contributions, feedback, and suggestions are welcome!
+Please open an issue or submit a pull request for improvements.
