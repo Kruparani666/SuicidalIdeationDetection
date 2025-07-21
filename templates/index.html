@@ -1,0 +1,16 @@
+{% extends 'layout.html' %} {% block title %}Home{% endblock %} {% block content
+%}
+<h1>Sentiment Analysis</h1>
+<form action="{{ url_for('predict') }}" method="post">
+  <textarea
+    name="user_input"
+    placeholder="Enter text here..."
+    required
+  ></textarea>
+  <br />
+  <button type="submit">Analyze</button>
+</form>
+{% endblock %}
+
+
+
